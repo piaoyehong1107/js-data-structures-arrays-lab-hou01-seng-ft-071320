@@ -6,5 +6,5 @@ function destructivelyAppendDriver(name)
 end
 
 function destructivelyPrependDriver(name)
-  drivers.shift(name)
+  drivers.unshift(name)
 end
