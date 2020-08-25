@@ -10,9 +10,9 @@ function destructivelyPrependDriver(name)
 end
 
 function destructivelyRemoveLastDriver()
-  driver.pop() 
+  drivers.pop() 
 end 
 
 function destructivelyRemoveFirstDriver()
-drivers.shift()
+  drivers.shift()
 end 
