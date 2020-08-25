@@ -17,4 +17,5 @@ function destructivelyRemoveFirstDriver()
   drivers.shift()
 end 
 
-function 
+function appendDriver(name)
+  newdrivers= [...drivers, 'name']
