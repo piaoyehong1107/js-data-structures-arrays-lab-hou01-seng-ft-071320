@@ -13,9 +13,9 @@ function destructivelyRemoveLastDriver()
   drivers.pop() 
 end 
 
-function destructivelyRemoveFirstDriver()
+function destructivelyRemoveFirstDriver(){
   drivers.shift()
-end 
+}
 
 function appendDriver(name){
   newdrivers= [...drivers, 'name']
