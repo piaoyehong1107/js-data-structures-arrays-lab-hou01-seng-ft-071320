@@ -5,4 +5,6 @@ function destructivelyAppendDriver(name)
   drivers.push(name)
 end
 
-function 
+function destructivelyPrependDriver(name)
+  drivers.shift(name)
+end
